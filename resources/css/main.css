@@ -1,0 +1,41 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+#imgEloy {
+  border-radius: 50%;
+  width: auto;
+  height: 200px;
+}
+#myName {
+  font-size: 70px;
+}
+.technologyLogo {
+  width: auto;
+  height: 50px;
+}
+#contactLinks {
+  position: absolute;
+  bottom: 76% !important;
+  right: 5% !important;
+}
+#contactLinks a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+#emailLink:hover {
+  color: rgb(255, 62, 62);
+}
+#githubLink:hover {
+  color: rgb(141, 141, 141);
+}
+#linkedinLink:hover {
+  color: rgb(37, 122, 250);
+}
+#twitterLink:hover {
+  color: rgb(0, 174, 255);
+}
+#projectsBar {
+  width: -webkit-fill-available;
+  padding-left: 1%;
+}
